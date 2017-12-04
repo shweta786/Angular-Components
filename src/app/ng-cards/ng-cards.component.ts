@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-ng-cards',
@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class NgCardsComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit() {
   }
 
+  @Input() public title = '';
+  @Input() public text = '';
+  @Input() public linkName = '';  
+  @Input() public link = '';  
 }

@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class CardsComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit() {
   }
+
+  public title = "Simple Card";
+  public text = "Any text can be placed here";
+  public linkName = "Go somewhere";
+  public link = "#";
 
 }
