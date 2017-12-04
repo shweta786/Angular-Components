@@ -15,4 +15,13 @@ export class NgCardsComponent implements OnInit {
   @Input() public text = '';
   @Input() public linkName = '';  
   @Input() public link = '';  
+
+  @Input() public title2 = '';
+  @Input() public text2 = '';
+  @Input() public linkName20 = '';  
+  @Input() public link20 = '';  
+  @Input() public linkName21 = '';  
+  @Input() public link21 = '';  
+  @Input() public subtitle = '';
+
 }
