@@ -13,7 +13,4 @@ export class NgDropdownComponent implements OnInit {
   }
 
   @Input() public title= '';
-  @Input() public ac1= '';
-  @Input() public ac2= '';
-  @Input() public ac3= '';
 }

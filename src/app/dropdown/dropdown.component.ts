@@ -13,8 +13,11 @@ export class DropdownComponent implements OnInit {
   }
 
   public title = "dropdown title";
-  public ac1 = "action one";
-  public ac2 = "action two";
-  public ac3 = "action three";
+  public action = [
+    { name: 'action one' },
+    { name: 'action two' },
+    { name: 'action three' },
+    { name: 'action four' }
+  ];
   
 }

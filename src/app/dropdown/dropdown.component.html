@@ -1,8 +1,5 @@
-<app-ng-dropdown
-  [title] = "title"
-  [ac1] = "ac1"
-  [ac2] = "ac2"
-  [ac3] = "ac3"
->
-
+<app-ng-dropdown [title]="title">
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a *ngFor="let data of action" class="dropdown-item" href="#">{{data.name}}</a>
+  </div>
 </app-ng-dropdown>

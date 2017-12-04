@@ -7,6 +7,8 @@ import { CardsComponent } from './cards/cards.component';
 import { NgCardsComponent } from './ng-cards/ng-cards.component';
 import { NgDropdownComponent } from './ng-dropdown/ng-dropdown.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
+import { NgButtonsComponent } from './ng-buttons/ng-buttons.component';
+import { ButtonsComponent } from './buttons/buttons.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { DropdownComponent } from './dropdown/dropdown.component';
     CardsComponent,
     NgCardsComponent,
     NgDropdownComponent,
-    DropdownComponent
+    DropdownComponent,
+    NgButtonsComponent,
+    ButtonsComponent,
   ],
   imports: [
     BrowserModule,
