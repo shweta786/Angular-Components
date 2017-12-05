@@ -5,6 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './ng-alerts.component.html',
   styleUrls: ['./ng-alerts.component.css']
 })
+
 export class NgAlertsComponent implements OnInit {
 
   constructor() { }
