@@ -9,6 +9,8 @@ import { NgDropdownComponent } from './ng-dropdown/ng-dropdown.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { NgButtonsComponent } from './ng-buttons/ng-buttons.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { AlertsComponent } from './alerts/alerts.component';
+import { NgAlertsComponent } from './ng-alerts/ng-alerts.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { ButtonsComponent } from './buttons/buttons.component';
     DropdownComponent,
     NgButtonsComponent,
     ButtonsComponent,
+    AlertsComponent,
+    NgAlertsComponent,
   ],
   imports: [
     BrowserModule,

@@ -12,4 +12,8 @@ export class ButtonsComponent implements OnInit {
   ngOnInit() {
   }
 
+  public name1 = "first";
+  public name2 = "second";
+  public name3 = "third";
+
 }
