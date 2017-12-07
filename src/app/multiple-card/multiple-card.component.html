@@ -1,17 +1,23 @@
 <app-ng-multiple-card>
 
-  <app-ng-card-child>
-
+  <app-ng-card-child [title]="'Step1'" (onNext)="onStep1Next($event)">
+    <h1>Step1</h1>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
+      </div>
+    </form>
   </app-ng-card-child>
 
 
-  <app-ng-card-child>
-
+  <app-ng-card-child [title]="'Step2'" (onNext)="onStep2Next($event)">
+    <h1>Step2</h1>
   </app-ng-card-child>
 
 
-  <app-ng-card-child>
-
+  <app-ng-card-child [title]="'Step3'" (onNext)="onStep3Next($event)">
+    <h1>Step3</h1>
   </app-ng-card-child>
-  
+
 </app-ng-multiple-card>
