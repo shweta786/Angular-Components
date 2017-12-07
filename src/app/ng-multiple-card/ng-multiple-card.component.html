@@ -1,3 +1,10 @@
-<p>
-  ng-multiple-card works!
-</p>
+<div>
+  <div>
+    <ng-content></ng-content>
+  </div>
+  <div [hidden]="isCompleted">
+      <button type="button" class="btn btn-secondary float-left">Previous</button>
+      <button type="button" class="btn btn-secondary float-right">Next</button>
+      <button type="button" class="btn btn-secondary float-right">Done</button>
+  </div>
+</div>

@@ -13,6 +13,7 @@ import { AlertsComponent } from './alerts/alerts.component';
 import { NgAlertsComponent } from './ng-alerts/ng-alerts.component';
 import { MultipleCardComponent } from './multiple-card/multiple-card.component';
 import { NgMultipleCardComponent } from './ng-multiple-card/ng-multiple-card.component';
+import { NgCardChildComponent } from './ng-card-child/ng-card-child.component';
 
 
 @NgModule({
@@ -28,10 +29,11 @@ import { NgMultipleCardComponent } from './ng-multiple-card/ng-multiple-card.com
     NgAlertsComponent,
     MultipleCardComponent,
     NgMultipleCardComponent,
+    NgCardChildComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
