@@ -4,6 +4,7 @@ import { CardsComponent } from './cards/cards.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { AlertsComponent } from './alerts/alerts.component';
+import { MultipleCardComponent } from './multiple-card/multiple-card.component';
 
 const routes: Routes = [
   { path: '', component: CardsComponent },    
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'dropdowns',  component: DropdownComponent },
   { path: 'buttons',  component: ButtonsComponent },
   { path: 'alerts',  component: AlertsComponent },
+  { path: 'muCard',  component: MultipleCardComponent },
 ];
 
 @NgModule({

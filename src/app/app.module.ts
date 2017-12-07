@@ -11,6 +11,8 @@ import { NgButtonsComponent } from './ng-buttons/ng-buttons.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { AlertsComponent } from './alerts/alerts.component';
 import { NgAlertsComponent } from './ng-alerts/ng-alerts.component';
+import { MultipleCardComponent } from './multiple-card/multiple-card.component';
+import { NgMultipleCardComponent } from './ng-multiple-card/ng-multiple-card.component';
 
 
 @NgModule({
@@ -24,6 +26,8 @@ import { NgAlertsComponent } from './ng-alerts/ng-alerts.component';
     ButtonsComponent,
     AlertsComponent,
     NgAlertsComponent,
+    MultipleCardComponent,
+    NgMultipleCardComponent,
   ],
   imports: [
     BrowserModule,
