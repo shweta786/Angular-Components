@@ -11,5 +11,18 @@ export class MultipleCardComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
+  public title1 = "Alert title";
+  public text1 = "This is an exaple of alert inside wizard";
+  public name1 = "Button1";
+  public name2 = "Button2";
+  public name3 = "Button3";
+  public title2 = "Dropdown's title";
+  public action = [
+    { name: 'action one' },
+    { name: 'action two' },
+    { name: 'action three' },
+    { name: 'action four' }
+  ];
+  
 }
