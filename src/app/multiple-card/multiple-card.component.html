@@ -1,6 +1,6 @@
 <app-ng-multiple-card>
 
-  <app-ng-card-child [title]="'Step1'" (onNext)="onStep1Next($event)">
+  <app-ng-card-child>
     <h1>Step1</h1>
     <form>
       <div class="form-group">
@@ -23,20 +23,20 @@
   </app-ng-card-child>
 
 
-  <app-ng-card-child [title]="'Step2'" (onNext)="onStep2Next($event)">
+  <app-ng-card-child>
     <h1>Step2</h1>
     <app-ng-alerts [title]="title1" [text]="text1">
     </app-ng-alerts>
   </app-ng-card-child>
 
 
-  <app-ng-card-child [title]="'Step3'" (onNext)="onStep3Next($event)">
+  <app-ng-card-child>
     <h1>Step3</h1>
     <app-ng-buttons [name1]="name1" [name2]="name2" [name3]="name3">
     </app-ng-buttons>
   </app-ng-card-child>
 
-  <app-ng-card-child [title]="'Step4'" (onNext)="onStep4Next($event)">
+  <app-ng-card-child>
     <h1>Step4</h1>
     <app-ng-dropdown [title]="title2">
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
