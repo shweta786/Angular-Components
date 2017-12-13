@@ -3,9 +3,12 @@
     <a class="navbar-brand" href="/">Ng-Components</a>
 </nav>
 
+<a class="btn btn-primary" data-toggle="collapse" href="#open" aria-expanded="true" aria-controls="open">
+    open
+</a>
 <div class="row" id="one">
 
-  <div class="col-sm-3">
+  <div class="col-sm-3 collapse" id="open" role="tabpanel" aria-labelledby="headingOne" data-parent="#one">
       <ul class="list-group">
           <li class="list-group-item"> <a href="/cards">Cards</a> </li>
           <li class="list-group-item"> <a href="/dropdowns">Dropdowns</a> </li>
